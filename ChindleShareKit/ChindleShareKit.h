@@ -9,8 +9,8 @@
 #define ChindleShareKit_h
 
 
-#import "WXApi.h"
-#import "WXApiObject.h"
-#import "WechatAuthSDK.h"
+//#import "WXApi.h"
+//#import "WXApiObject.h"
+//#import "WechatAuthSDK.h"
 
 #endif /* ChindleShareKit_h */
