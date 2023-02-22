@@ -43,7 +43,7 @@ pod 'TencentOpenApiHub' #腾讯分享
 
 
 
-	##### 1.引入头文件
+##### 1.引入头文件
 
 ```swift
 import ChindleShareKit
