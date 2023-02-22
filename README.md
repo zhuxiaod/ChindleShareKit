@@ -16,7 +16,7 @@
 
 2.不需要去手动下载腾讯SDK
 
-3.减少接入分享引入的库
+3.减少接入分享引入的库的操作
 
 
 
@@ -33,11 +33,11 @@
 ​	Podfile
 
 ```ruby
-pod 'ChindleShareKit' #分享Kit
+pod 'ChindleShareKit' #分享Kit 微信分享在里面
 pod 'TencentOpenApiHub' #腾讯分享
 ```
 
-### 
+
 
 ## 使用
 

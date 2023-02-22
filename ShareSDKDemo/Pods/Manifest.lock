@@ -1,0 +1,29 @@
+PODS:
+  - ChindleShareKit (1.0.1):
+    - TencentOpenApiHub
+  - TencentOpenApiHub (1.0.0)
+
+DEPENDENCIES:
+  - ChindleShareKit (from `https://github.com/zhuxiaod/ChindleShareKit.git`)
+  - TencentOpenApiHub
+
+SPEC REPOS:
+  https://github.com/zhuxiaod/ChindleSpecs.git:
+    - TencentOpenApiHub
+
+EXTERNAL SOURCES:
+  ChindleShareKit:
+    :git: https://github.com/zhuxiaod/ChindleShareKit.git
+
+CHECKOUT OPTIONS:
+  ChindleShareKit:
+    :commit: e3e24c66cc1884a5a1e1d4ca7e1c43f779f4a93a
+    :git: https://github.com/zhuxiaod/ChindleShareKit.git
+
+SPEC CHECKSUMS:
+  ChindleShareKit: b7aac4cba718fc9be244ff37d8b5cf15d41b6f0d
+  TencentOpenApiHub: 7921b8ddb65356c38f56011691d98ebf2be55df5
+
+PODFILE CHECKSUM: 43b156c75ce2fedc1421d3af3ed8f72ae4b1be2b
+
+COCOAPODS: 1.11.3

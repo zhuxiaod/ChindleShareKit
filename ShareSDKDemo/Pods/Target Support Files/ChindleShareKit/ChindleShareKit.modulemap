@@ -1,0 +1,6 @@
+framework module ChindleShareKit {
+  umbrella header "ChindleShareKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

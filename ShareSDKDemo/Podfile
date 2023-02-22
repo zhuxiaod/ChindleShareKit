@@ -1,0 +1,21 @@
+platform :ios, '11.0'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/zhuxiaod/ChindleSpecs.git'
+
+use_frameworks!
+
+target 'ShareSDKDemo' do
+
+  pod 'ChindleShareKit', :git => 'https://github.com/zhuxiaod/ChindleShareKit.git'
+  pod 'TencentOpenApiHub'
+
+end
+
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+    end
+  end
+end

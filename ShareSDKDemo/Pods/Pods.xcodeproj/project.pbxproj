@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		195FF9E4C051BF660D7890131AD283C6 /* TencentShareTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CF7EB70E158923760FE7DAAC2102C8 /* TencentShareTool.swift */; };
+		1E035F92558E0AA185B5F2E26DF94BA4 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = B05E6F8C019F2A6681EB845BC7FD0D1D /* module.modulemap */; };
+		304C476A241F46DEADCCFEFE6517806E /* WeChatShareTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7B70D20C3BF055CBF3D15EFA08F7C9 /* WeChatShareTool.swift */; };
+		45FCEACB2A2A739390DFC181EF55A56A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		46BF43651AB0F77232D8DB531CA1CA7B /* TencentOpenApiHub-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A29D0BBF8F0F1772988435B4EE4FF2 /* TencentOpenApiHub-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		500B98E9F2B6E68FC5F68DACFE89DDF0 /* Pods-ShareSDKDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC7C5EFE7E43050C8DC12D18A672653A /* Pods-ShareSDKDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		515EEB51D0F2C5A2B635E0DA385ECC93 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B8F47533F8683A8CA567BD19EEA2954A /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53B1D8C829A258FA930676DC7772B78F /* sdkdef.h in Headers */ = {isa = PBXBuildFile; fileRef = B9590DC04A487520D199971B66826BBD /* sdkdef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54A17A3A57260F9CB90565DB699C676B /* QQApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 995BC6785BC0914F72C058257760BB2A /* QQApiInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		556FCCD9DFBE53F14037368193134D17 /* Pods-ShareSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B73E849E920732B68BC64007E2EC2C85 /* Pods-ShareSDKDemo-dummy.m */; };
+		583B223B77D2288869A0C46AAD414545 /* ChindleShareKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 06C33F7AF698359D1BE2DEEEA397FC06 /* ChindleShareKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60BBE5C1545C116CED28A5D80A952A38 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EA676A21BF44D4B56A21813130EE4A1 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EB8687981A8F96E528568F5E4B2EC4B /* TencentOpenApiHub-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EEE0BE389F914A2762F4847C9706F2 /* TencentOpenApiHub-dummy.m */; };
+		8FFAB039EAA1D0179C7336E0E79B230E /* TencentOpenApiUmbrellaHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 391907AE2BEB059E99A99676A67B1F0A /* TencentOpenApiUmbrellaHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96312269AF266A7A140FF04D785F1D5B /* ChindleShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17644C8C7F8E4A2222D24747AFA34875 /* ChindleShareManager.swift */; };
+		A7A77A288F9098B70B2DD5477A3A99E0 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = BB5A7D84C38BFBFFC04CBF17E2499B4B /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE5DC84C842A473E9A671264B7E189E9 /* ChindleShareHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7DF3441BBBE4ACC70EAAC60B7AE288 /* ChindleShareHelp.swift */; };
+		C98EA389B952CBB698A03DAD11253AFA /* TencentOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = C65B938AF523C94E6AB98804BD54B5D4 /* TencentOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CA4E79AF24A6CD82307BA863A6B9B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D4454933FE939A23DDC19E5926800A14 /* libWechatOpenSDK.a in Sources */ = {isa = PBXBuildFile; fileRef = 76F27110CA5005BA129CD4810BBC88B7 /* libWechatOpenSDK.a */; };
+		DF9D8AE7414E186BFF64F6EBDDB2F195 /* ChindleShareKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4793E5FC26BC0C235D57AE020CDB9 /* ChindleShareKit-dummy.m */; };
+		E655CD42D13D945B1B4E6ACC3AE70717 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EC53CFF68719FCEBBA1860D614798CF0 /* QQApiInterfaceObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A44C663B4549CDE814918CA9250F081 /* QQApiInterfaceObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4A58019EE897D9DCCE5A2F0422F96C5 /* ChindleShareProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89FF09267F421042F7CD60036A254DD /* ChindleShareProtocol.swift */; };
+		F53B441F257CC52A80E2BE7E5CD3F99D /* ChindleShareKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2DF91C62644976892C3EB9D634EB09 /* ChindleShareKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		065D01A0B9B96531A9352B64C8A84C2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0547699FE3619380166B7EB826C7A083;
+			remoteInfo = ChindleShareKit;
+		};
+		4D9A70854EE84624C7BA84BFD5CF42D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82DFD3207414B77FB335DFA18D3EF3A7;
+			remoteInfo = TencentOpenApiHub;
+		};
+		A59654883ED773E3CFC12C790DCDEFDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82DFD3207414B77FB335DFA18D3EF3A7;
+			remoteInfo = TencentOpenApiHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D701A7EA9C9BC86A1D3868DC83623A /* ChindleShareKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChindleShareKit.modulemap; sourceTree = "<group>"; };
+		06C33F7AF698359D1BE2DEEEA397FC06 /* ChindleShareKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChindleShareKit.h; path = ChindleShareKit/ChindleShareKit.h; sourceTree = "<group>"; };
+		073AF3581444DD5B5CC731E61A0190D5 /* TencentOpenApiHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TencentOpenApiHub.debug.xcconfig; sourceTree = "<group>"; };
+		1139999663DAADCA2132A62A0A0A6065 /* Pods-ShareSDKDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShareSDKDemo.modulemap"; sourceTree = "<group>"; };
+		14EEE0BE389F914A2762F4847C9706F2 /* TencentOpenApiHub-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TencentOpenApiHub-dummy.m"; sourceTree = "<group>"; };
+		17644C8C7F8E4A2222D24747AFA34875 /* ChindleShareManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChindleShareManager.swift; path = ChindleShareKit/ChindleShareManager.swift; sourceTree = "<group>"; };
+		317DFECC213D2CEA6FDC2ED9F47E9ED9 /* TencentOpenApiHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TencentOpenApiHub.release.xcconfig; sourceTree = "<group>"; };
+		32214CEA4439B2DC8A1B1202F47C16B0 /* TencentOpenApiHub-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TencentOpenApiHub-prefix.pch"; sourceTree = "<group>"; };
+		391907AE2BEB059E99A99676A67B1F0A /* TencentOpenApiUmbrellaHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentOpenApiUmbrellaHeader.h; path = TencentOpenAPI.framework/Headers/TencentOpenApiUmbrellaHeader.h; sourceTree = "<group>"; };
+		4BFD985FDF1D1A387669D98602D5F99C /* Pods-ShareSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShareSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76F27110CA5005BA129CD4810BBC88B7 /* libWechatOpenSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWechatOpenSDK.a; path = ChindleShareKit/WechatSDK/libWechatOpenSDK.a; sourceTree = "<group>"; };
+		8EA676A21BF44D4B56A21813130EE4A1 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = ChindleShareKit/WechatSDK/WechatAuthSDK.h; sourceTree = "<group>"; };
+		995BC6785BC0914F72C058257760BB2A /* QQApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QQApiInterface.h; path = TencentOpenAPI.framework/Headers/QQApiInterface.h; sourceTree = "<group>"; };
+		9A44C663B4549CDE814918CA9250F081 /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QQApiInterfaceObject.h; path = TencentOpenAPI.framework/Headers/QQApiInterfaceObject.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2A29D0BBF8F0F1772988435B4EE4FF2 /* TencentOpenApiHub-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TencentOpenApiHub-umbrella.h"; sourceTree = "<group>"; };
+		A9FFC03EE859B934C34C973304F8B568 /* TencentOpenApiHub.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TencentOpenApiHub.modulemap; sourceTree = "<group>"; };
+		AC7C5EFE7E43050C8DC12D18A672653A /* Pods-ShareSDKDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShareSDKDemo-umbrella.h"; sourceTree = "<group>"; };
+		B05E6F8C019F2A6681EB845BC7FD0D1D /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = module.modulemap; path = TencentOpenAPI.framework/Headers/module.modulemap; sourceTree = "<group>"; };
+		B73E849E920732B68BC64007E2EC2C85 /* Pods-ShareSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShareSDKDemo-dummy.m"; sourceTree = "<group>"; };
+		B8F47533F8683A8CA567BD19EEA2954A /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = ChindleShareKit/WechatSDK/WXApiObject.h; sourceTree = "<group>"; };
+		B9590DC04A487520D199971B66826BBD /* sdkdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sdkdef.h; path = TencentOpenAPI.framework/Headers/sdkdef.h; sourceTree = "<group>"; };
+		BB5A7D84C38BFBFFC04CBF17E2499B4B /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = ChindleShareKit/WechatSDK/WXApi.h; sourceTree = "<group>"; };
+		C514E53FE2134ECD9F0306F24DBFB984 /* TencentOpenApiHub */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TencentOpenApiHub; path = TencentOpenApiHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65B938AF523C94E6AB98804BD54B5D4 /* TencentOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentOAuth.h; path = TencentOpenAPI.framework/Headers/TencentOAuth.h; sourceTree = "<group>"; };
+		C6886B5F6B334EE1176E8538139329E2 /* Pods-ShareSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CAA9CD5C5DCAC8B6C0BCD711C6AE705C /* Pods-ShareSDKDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShareSDKDemo-Info.plist"; sourceTree = "<group>"; };
+		CDE48A58E99A6B2CFCD93E9FEF4C7D00 /* ChindleShareKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChindleShareKit.debug.xcconfig; sourceTree = "<group>"; };
+		CE28132D26A715E1C4989A60B26CCFE5 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		DA19EFA091F5060D6A348610CD81588A /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		DF7DF3441BBBE4ACC70EAAC60B7AE288 /* ChindleShareHelp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChindleShareHelp.swift; path = ChindleShareKit/ChindleShareHelp.swift; sourceTree = "<group>"; };
+		DFA290BBE2C9400A9985F2DB88DE7CF0 /* Pods-ShareSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShareSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E09980AE5BB3BB313FE7264D698F029C /* ChindleShareKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChindleShareKit-prefix.pch"; sourceTree = "<group>"; };
+		E58B3841656FD1F0B123D8CBF286567A /* TencentOpenApiHub-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TencentOpenApiHub-Info.plist"; sourceTree = "<group>"; };
+		E6CF7EB70E158923760FE7DAAC2102C8 /* TencentShareTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TencentShareTool.swift; path = ChindleShareKit/TencentShareTool.swift; sourceTree = "<group>"; };
+		ECA4333354441B43623821BCC993F559 /* ChindleShareKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChindleShareKit-Info.plist"; sourceTree = "<group>"; };
+		ED7B70D20C3BF055CBF3D15EFA08F7C9 /* WeChatShareTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeChatShareTool.swift; path = ChindleShareKit/WeChatShareTool.swift; sourceTree = "<group>"; };
+		F0CBC254DB91FADFBA8AB1F8174AED8D /* ChindleShareKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChindleShareKit; path = ChindleShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F400D4549FFA0BAC8CC2E4FA571D2D20 /* Pods-ShareSDKDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ShareSDKDemo"; path = Pods_ShareSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F636E00DFC41D0F5408CDB5649BBA626 /* Pods-ShareSDKDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareSDKDemo-resources.sh"; sourceTree = "<group>"; };
+		F7A4793E5FC26BC0C235D57AE020CDB9 /* ChindleShareKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChindleShareKit-dummy.m"; sourceTree = "<group>"; };
+		F89FF09267F421042F7CD60036A254DD /* ChindleShareProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChindleShareProtocol.swift; path = ChindleShareKit/ChindleShareProtocol.swift; sourceTree = "<group>"; };
+		FA827706D5BF9DB43EACC7AA27A4B053 /* Pods-ShareSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FD2DF91C62644976892C3EB9D634EB09 /* ChindleShareKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChindleShareKit-umbrella.h"; sourceTree = "<group>"; };
+		FF29CA343C29EE9DCC56DAD60DB4A748 /* ChindleShareKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChindleShareKit.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A4CA275FBD16F5A697DEF35AB354F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CA4E79AF24A6CD82307BA863A6B9B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B033A4E377D92D20F6EFB3E8A0425861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E655CD42D13D945B1B4E6ACC3AE70717 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1818683326503A82A68A36DFAD09FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FCEACB2A2A739390DFC181EF55A56A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05B202FB0731777BE2C5AEFC426FDA54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41CEA9BE70D8A24979958B21DBE4F357 /* ChindleShareKit */,
+				DCB1DE17B099DAC10C3A36BF4B04DEFA /* TencentOpenApiHub */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3ADBEABFA3E53FF6B34B3F7353472695 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4FEBBDD24D3ED0A9FEBAF366203FEBF /* Pods-ShareSDKDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		41CEA9BE70D8A24979958B21DBE4F357 /* ChindleShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				DF7DF3441BBBE4ACC70EAAC60B7AE288 /* ChindleShareHelp.swift */,
+				06C33F7AF698359D1BE2DEEEA397FC06 /* ChindleShareKit.h */,
+				17644C8C7F8E4A2222D24747AFA34875 /* ChindleShareManager.swift */,
+				F89FF09267F421042F7CD60036A254DD /* ChindleShareProtocol.swift */,
+				76F27110CA5005BA129CD4810BBC88B7 /* libWechatOpenSDK.a */,
+				E6CF7EB70E158923760FE7DAAC2102C8 /* TencentShareTool.swift */,
+				8EA676A21BF44D4B56A21813130EE4A1 /* WechatAuthSDK.h */,
+				ED7B70D20C3BF055CBF3D15EFA08F7C9 /* WeChatShareTool.swift */,
+				BB5A7D84C38BFBFFC04CBF17E2499B4B /* WXApi.h */,
+				B8F47533F8683A8CA567BD19EEA2954A /* WXApiObject.h */,
+				4FDEEA24490825BE84938CCED007FD1C /* Frameworks */,
+				EA717C986AA28FF0C9DF01AE7551E976 /* Support Files */,
+			);
+			name = ChindleShareKit;
+			path = ChindleShareKit;
+			sourceTree = "<group>";
+		};
+		4FDEEA24490825BE84938CCED007FD1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50240D78B0791741947B90D8A8D2FBB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0CBC254DB91FADFBA8AB1F8174AED8D /* ChindleShareKit */,
+				F400D4549FFA0BAC8CC2E4FA571D2D20 /* Pods-ShareSDKDemo */,
+				C514E53FE2134ECD9F0306F24DBFB984 /* TencentOpenApiHub */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6852DD435A64525E4DC842138ABC62FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9FFC03EE859B934C34C973304F8B568 /* TencentOpenApiHub.modulemap */,
+				14EEE0BE389F914A2762F4847C9706F2 /* TencentOpenApiHub-dummy.m */,
+				E58B3841656FD1F0B123D8CBF286567A /* TencentOpenApiHub-Info.plist */,
+				32214CEA4439B2DC8A1B1202F47C16B0 /* TencentOpenApiHub-prefix.pch */,
+				A2A29D0BBF8F0F1772988435B4EE4FF2 /* TencentOpenApiHub-umbrella.h */,
+				073AF3581444DD5B5CC731E61A0190D5 /* TencentOpenApiHub.debug.xcconfig */,
+				317DFECC213D2CEA6FDC2ED9F47E9ED9 /* TencentOpenApiHub.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TencentOpenApiHub";
+			sourceTree = "<group>";
+		};
+		6B03DD9EF93455D2C71EEF8EBD5309EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA19EFA091F5060D6A348610CD81588A /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A10EEF5ED2FEBED179416A9075D2AC20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE28132D26A715E1C4989A60B26CCFE5 /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4FEBBDD24D3ED0A9FEBAF366203FEBF /* Pods-ShareSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1139999663DAADCA2132A62A0A0A6065 /* Pods-ShareSDKDemo.modulemap */,
+				DFA290BBE2C9400A9985F2DB88DE7CF0 /* Pods-ShareSDKDemo-acknowledgements.markdown */,
+				4BFD985FDF1D1A387669D98602D5F99C /* Pods-ShareSDKDemo-acknowledgements.plist */,
+				B73E849E920732B68BC64007E2EC2C85 /* Pods-ShareSDKDemo-dummy.m */,
+				CAA9CD5C5DCAC8B6C0BCD711C6AE705C /* Pods-ShareSDKDemo-Info.plist */,
+				F636E00DFC41D0F5408CDB5649BBA626 /* Pods-ShareSDKDemo-resources.sh */,
+				AC7C5EFE7E43050C8DC12D18A672653A /* Pods-ShareSDKDemo-umbrella.h */,
+				FA827706D5BF9DB43EACC7AA27A4B053 /* Pods-ShareSDKDemo.debug.xcconfig */,
+				C6886B5F6B334EE1176E8538139329E2 /* Pods-ShareSDKDemo.release.xcconfig */,
+			);
+			name = "Pods-ShareSDKDemo";
+			path = "Target Support Files/Pods-ShareSDKDemo";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				05B202FB0731777BE2C5AEFC426FDA54 /* Pods */,
+				50240D78B0791741947B90D8A8D2FBB2 /* Products */,
+				3ADBEABFA3E53FF6B34B3F7353472695 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCB1DE17B099DAC10C3A36BF4B04DEFA /* TencentOpenApiHub */ = {
+			isa = PBXGroup;
+			children = (
+				B05E6F8C019F2A6681EB845BC7FD0D1D /* module.modulemap */,
+				995BC6785BC0914F72C058257760BB2A /* QQApiInterface.h */,
+				9A44C663B4549CDE814918CA9250F081 /* QQApiInterfaceObject.h */,
+				B9590DC04A487520D199971B66826BBD /* sdkdef.h */,
+				C65B938AF523C94E6AB98804BD54B5D4 /* TencentOAuth.h */,
+				391907AE2BEB059E99A99676A67B1F0A /* TencentOpenApiUmbrellaHeader.h */,
+				A10EEF5ED2FEBED179416A9075D2AC20 /* Frameworks */,
+				6B03DD9EF93455D2C71EEF8EBD5309EF /* Resources */,
+				6852DD435A64525E4DC842138ABC62FC /* Support Files */,
+			);
+			name = TencentOpenApiHub;
+			path = TencentOpenApiHub;
+			sourceTree = "<group>";
+		};
+		EA717C986AA28FF0C9DF01AE7551E976 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				00D701A7EA9C9BC86A1D3868DC83623A /* ChindleShareKit.modulemap */,
+				F7A4793E5FC26BC0C235D57AE020CDB9 /* ChindleShareKit-dummy.m */,
+				ECA4333354441B43623821BCC993F559 /* ChindleShareKit-Info.plist */,
+				E09980AE5BB3BB313FE7264D698F029C /* ChindleShareKit-prefix.pch */,
+				FD2DF91C62644976892C3EB9D634EB09 /* ChindleShareKit-umbrella.h */,
+				CDE48A58E99A6B2CFCD93E9FEF4C7D00 /* ChindleShareKit.debug.xcconfig */,
+				FF29CA343C29EE9DCC56DAD60DB4A748 /* ChindleShareKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChindleShareKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DA5B1D054F5A3BF7EC4223127514C45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500B98E9F2B6E68FC5F68DACFE89DDF0 /* Pods-ShareSDKDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		695C1B1430F4F7A679648D9861D7060B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583B223B77D2288869A0C46AAD414545 /* ChindleShareKit.h in Headers */,
+				F53B441F257CC52A80E2BE7E5CD3F99D /* ChindleShareKit-umbrella.h in Headers */,
+				60BBE5C1545C116CED28A5D80A952A38 /* WechatAuthSDK.h in Headers */,
+				A7A77A288F9098B70B2DD5477A3A99E0 /* WXApi.h in Headers */,
+				515EEB51D0F2C5A2B635E0DA385ECC93 /* WXApiObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E506CB56856E0E0DF584F80CFF45AC0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A17A3A57260F9CB90565DB699C676B /* QQApiInterface.h in Headers */,
+				EC53CFF68719FCEBBA1860D614798CF0 /* QQApiInterfaceObject.h in Headers */,
+				53B1D8C829A258FA930676DC7772B78F /* sdkdef.h in Headers */,
+				C98EA389B952CBB698A03DAD11253AFA /* TencentOAuth.h in Headers */,
+				46BF43651AB0F77232D8DB531CA1CA7B /* TencentOpenApiHub-umbrella.h in Headers */,
+				8FFAB039EAA1D0179C7336E0E79B230E /* TencentOpenApiUmbrellaHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0547699FE3619380166B7EB826C7A083 /* ChindleShareKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B5757DB952CA387CD584D9D74A15C7 /* Build configuration list for PBXNativeTarget "ChindleShareKit" */;
+			buildPhases = (
+				695C1B1430F4F7A679648D9861D7060B /* Headers */,
+				65CB665F7173391917CB46142DF8CFB2 /* Sources */,
+				B033A4E377D92D20F6EFB3E8A0425861 /* Frameworks */,
+				731FAC0053327EE25F17CE413B9834D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE3784AC5244E3733122D2D767DD0D53 /* PBXTargetDependency */,
+			);
+			name = ChindleShareKit;
+			productName = ChindleShareKit;
+			productReference = F0CBC254DB91FADFBA8AB1F8174AED8D /* ChindleShareKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		82DFD3207414B77FB335DFA18D3EF3A7 /* TencentOpenApiHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BFA71537FFD4F5FD7720B06046C55DC /* Build configuration list for PBXNativeTarget "TencentOpenApiHub" */;
+			buildPhases = (
+				E506CB56856E0E0DF584F80CFF45AC0B /* Headers */,
+				961EE3F3240F8265BDCD3346D9702AB2 /* Sources */,
+				6A4CA275FBD16F5A697DEF35AB354F07 /* Frameworks */,
+				45FF32403DD1A9370E4DD7D646D58A82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TencentOpenApiHub;
+			productName = TencentOpenApiHub;
+			productReference = C514E53FE2134ECD9F0306F24DBFB984 /* TencentOpenApiHub */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0CC0BEEDF3C727CA8AFFD7F089FD581 /* Pods-ShareSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E136DC2D390CA0A0C972E6E9B32504 /* Build configuration list for PBXNativeTarget "Pods-ShareSDKDemo" */;
+			buildPhases = (
+				3DA5B1D054F5A3BF7EC4223127514C45 /* Headers */,
+				27BC33F9DA564DCBE450179BD636A343 /* Sources */,
+				D1818683326503A82A68A36DFAD09FB9 /* Frameworks */,
+				0AD6247C6CAA793B3140DAAC3877C6C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1AD471C3D92062736F6B5A416FB2A13 /* PBXTargetDependency */,
+				CD14E9D3531A99BE444EF1586D94B89B /* PBXTargetDependency */,
+			);
+			name = "Pods-ShareSDKDemo";
+			productName = Pods_ShareSDKDemo;
+			productReference = F400D4549FFA0BAC8CC2E4FA571D2D20 /* Pods-ShareSDKDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.4";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 50240D78B0791741947B90D8A8D2FBB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0547699FE3619380166B7EB826C7A083 /* ChindleShareKit */,
+				E0CC0BEEDF3C727CA8AFFD7F089FD581 /* Pods-ShareSDKDemo */,
+				82DFD3207414B77FB335DFA18D3EF3A7 /* TencentOpenApiHub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AD6247C6CAA793B3140DAAC3877C6C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FF32403DD1A9370E4DD7D646D58A82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731FAC0053327EE25F17CE413B9834D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27BC33F9DA564DCBE450179BD636A343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556FCCD9DFBE53F14037368193134D17 /* Pods-ShareSDKDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CB665F7173391917CB46142DF8CFB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5DC84C842A473E9A671264B7E189E9 /* ChindleShareHelp.swift in Sources */,
+				DF9D8AE7414E186BFF64F6EBDDB2F195 /* ChindleShareKit-dummy.m in Sources */,
+				96312269AF266A7A140FF04D785F1D5B /* ChindleShareManager.swift in Sources */,
+				F4A58019EE897D9DCCE5A2F0422F96C5 /* ChindleShareProtocol.swift in Sources */,
+				D4454933FE939A23DDC19E5926800A14 /* libWechatOpenSDK.a in Sources */,
+				195FF9E4C051BF660D7890131AD283C6 /* TencentShareTool.swift in Sources */,
+				304C476A241F46DEADCCFEFE6517806E /* WeChatShareTool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961EE3F3240F8265BDCD3346D9702AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E035F92558E0AA185B5F2E26DF94BA4 /* module.modulemap in Sources */,
+				8EB8687981A8F96E528568F5E4B2EC4B /* TencentOpenApiHub-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1AD471C3D92062736F6B5A416FB2A13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChindleShareKit;
+			target = 0547699FE3619380166B7EB826C7A083 /* ChindleShareKit */;
+			targetProxy = 065D01A0B9B96531A9352B64C8A84C2B /* PBXContainerItemProxy */;
+		};
+		CD14E9D3531A99BE444EF1586D94B89B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TencentOpenApiHub;
+			target = 82DFD3207414B77FB335DFA18D3EF3A7 /* TencentOpenApiHub */;
+			targetProxy = 4D9A70854EE84624C7BA84BFD5CF42D6 /* PBXContainerItemProxy */;
+		};
+		FE3784AC5244E3733122D2D767DD0D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TencentOpenApiHub;
+			target = 82DFD3207414B77FB335DFA18D3EF3A7 /* TencentOpenApiHub */;
+			targetProxy = A59654883ED773E3CFC12C790DCDEFDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E575D3D26191EEAA9157AD2B4F0C705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF29CA343C29EE9DCC56DAD60DB4A748 /* ChindleShareKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PREFIX_HEADER = "Target Support Files/ChindleShareKit/ChindleShareKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChindleShareKit/ChindleShareKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ChindleShareKit/ChindleShareKit.modulemap";
+				PRODUCT_MODULE_NAME = ChindleShareKit;
+				PRODUCT_NAME = ChindleShareKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		655E09AAAFC2FCAE0EF05918E0D79840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 073AF3581444DD5B5CC731E61A0190D5 /* TencentOpenApiHub.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PREFIX_HEADER = "Target Support Files/TencentOpenApiHub/TencentOpenApiHub-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TencentOpenApiHub/TencentOpenApiHub-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/TencentOpenApiHub/TencentOpenApiHub.modulemap";
+				PRODUCT_MODULE_NAME = TencentOpenApiHub;
+				PRODUCT_NAME = TencentOpenApiHub;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A9181E4FE8BC5D54D7A3375D384403F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6886B5F6B334EE1176E8538139329E2 /* Pods-ShareSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShareSDKDemo/Pods-ShareSDKDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShareSDKDemo/Pods-ShareSDKDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6CFF6078F46CD5F1546090412EE60EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE48A58E99A6B2CFCD93E9FEF4C7D00 /* ChindleShareKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PREFIX_HEADER = "Target Support Files/ChindleShareKit/ChindleShareKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChindleShareKit/ChindleShareKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ChindleShareKit/ChindleShareKit.modulemap";
+				PRODUCT_MODULE_NAME = ChindleShareKit;
+				PRODUCT_NAME = ChindleShareKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D060F02025022780C1F5E4D92CB01A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA827706D5BF9DB43EACC7AA27A4B053 /* Pods-ShareSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShareSDKDemo/Pods-ShareSDKDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShareSDKDemo/Pods-ShareSDKDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE3B65D3EF4DB6469AA3FA53A1061D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 317DFECC213D2CEA6FDC2ED9F47E9ED9 /* TencentOpenApiHub.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PREFIX_HEADER = "Target Support Files/TencentOpenApiHub/TencentOpenApiHub-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TencentOpenApiHub/TencentOpenApiHub-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/TencentOpenApiHub/TencentOpenApiHub.modulemap";
+				PRODUCT_MODULE_NAME = TencentOpenApiHub;
+				PRODUCT_NAME = TencentOpenApiHub;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BFA71537FFD4F5FD7720B06046C55DC /* Build configuration list for PBXNativeTarget "TencentOpenApiHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655E09AAAFC2FCAE0EF05918E0D79840 /* Debug */,
+				DE3B65D3EF4DB6469AA3FA53A1061D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44E136DC2D390CA0A0C972E6E9B32504 /* Build configuration list for PBXNativeTarget "Pods-ShareSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D060F02025022780C1F5E4D92CB01A1E /* Debug */,
+				6A9181E4FE8BC5D54D7A3375D384403F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B5757DB952CA387CD584D9D74A15C7 /* Build configuration list for PBXNativeTarget "ChindleShareKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CFF6078F46CD5F1546090412EE60EE4 /* Debug */,
+				2E575D3D26191EEAA9157AD2B4F0C705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_ShareSDKDemo {
+  umbrella header "Pods-ShareSDKDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
