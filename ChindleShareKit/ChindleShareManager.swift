@@ -38,6 +38,25 @@ extension ChindleShareManager {
 //行为
 extension ChindleShareManager {
     
+    //    case wechat = 0, wxMoment = 1, qqChat = 2, QZone = 3
+    public func oc_sendMessage(text: String, platform: Int) {
+        
+        sendMessage(text: text, platform: SharePlatform(rawValue: platform)!)
+    }
+    
+    //    case wechat = 0, wxMoment = 1, qqChat = 2, QZone = 3
+    public func oc_sendImage(data: NSData, title: String, description: String, platform: Int) {
+
+        sendImage(data: Data(referencing: data), title: title, description: description, platform: SharePlatform(rawValue: platform)!)
+    }
+    
+    //    case wechat = 0, wxMoment = 1, qqChat = 2, QZone = 3
+    public func oc_sendWebpageObject(webpageUrl: String, title: String, description: String, thumbImage: String, platform: Int) {
+
+        sendWebpageObject(webpageUrl: webpageUrl, title: title, description: description, thumbImage: thumbImage, platform: SharePlatform(rawValue: platform)!)
+        
+    }
+    
     public func sendMessage(text: String, platform: SharePlatform) {
         
         if platform == .wxMoment || platform == .wechat {
